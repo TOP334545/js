@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.ota img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 200px;
+    right: 160px;
+    background-color: #FFF3E3;
+    text-align: center;  
+ }
+.text h2{
+    font-size: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #B88E2F;
+    margin: 0 auto;
+}
+.btn2{
+    background-color: #B88E2F;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 23px;
+    margin: 20px;
+    cursor: pointer;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.text2{
+    text-align: center;
+    margin-top: 50px;
+}
+.text2 p{
+        color: gray;
+        font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;     
+}
+.btn3{
+    padding: 10px;
+    color: black;
+    margin: 50px auto;
+    height: 48px;
+    width: 245px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 2px solid #B88E2F;
+}
+.btn3:hover{
+transform: scale(0.95);
+transition: 1.2s;
+}
+.btn4{
+    padding: 10px;
+    background-color: #B88E2F;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.btn4:hover{
+    transform: scale(0.95);
+}
+.text3{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.rooms{
+    display: flex;
+    align-items: center;
+    gap: 131px;
+    background-color: #FCF8F3;
+}
+.rooms-text{
+    width: 440px;
+}
+.rooms-text h1{
+  font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.rooms-text p{
+font-weight: 300;
+font-size: 19px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #7D7987;
+margin-top: 26px;
+margin-bottom: 36px;
+}
+
+
+
+footer{
+    background-color: #FFFFFF;
+    padding: 100px 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer h3{
+    color:   black;
+    margin-top: 30px;
+}
+.fp{
+   width: 400px;
+}
+footer p{
+    color: gray;
+}
+input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.btn5{
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn5:hover{
+    background-color: darkred;
+    transition: 0.5s;
+}   
